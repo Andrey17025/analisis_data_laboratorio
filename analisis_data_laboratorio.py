@@ -60,7 +60,7 @@ En esta sección cargaremos el archivo estructurado `calibraciones_laboratorio_e
 # 2. CARGA Y LECTURA DEL DATASET
 # ==============================================================================
 # Leer el archivo CSV
-df = pd.read_csv("/content/calibraciones_laboratorio_ecuador.csv")
+df = pd.read_csv("calibraciones_laboratorio_ecuador.csv")
 
 # Evidenciando: shape, head() y unique()
 print(f"📊 Dimensiones del Dataset original (shape): {df.shape}")
